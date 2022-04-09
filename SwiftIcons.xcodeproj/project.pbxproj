@@ -20,7 +20,6 @@
 		4389E61320FE91D400175651 /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4389E5F220FE8FCB00175651 /* Stateface.ttf */; };
 		4389E61420FE91D400175651 /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4389E5F320FE8FCB00175651 /* Linearicons.ttf */; };
 		4389E61520FE91D400175651 /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4389E5F420FE8FCB00175651 /* Emoji.ttf */; };
-		4389E61720FE91D400175651 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4389E5F620FE8FCB00175651 /* MaterialIcons.ttf */; };
 		4389E61920FE91DE00175651 /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389E5F820FE8FCB00175651 /* SwiftIcons.swift */; };
 		A605C1341E37A9EF0079765A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A605C1331E37A9EF0079765A /* AppDelegate.swift */; };
 		A605C1391E37A9EF0079765A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A605C1371E37A9EF0079765A /* Main.storyboard */; };
@@ -42,6 +41,7 @@
 		E09B78D227FF2101005CF442 /* FontAwesomeBrands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E09B78CE27FF2100005CF442 /* FontAwesomeBrands.ttf */; };
 		E09B78D327FF2101005CF442 /* FontAwesomeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E09B78CF27FF2100005CF442 /* FontAwesomeRegular.ttf */; };
 		E09B78D427FF2101005CF442 /* FontAwesomeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E09B78D027FF2101005CF442 /* FontAwesomeSolid.ttf */; };
+		E09B78DC27FF3738005CF442 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E09B78DB27FF3738005CF442 /* MaterialIcons.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +88,6 @@
 		4389E5F220FE8FCB00175651 /* Stateface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stateface.ttf; sourceTree = "<group>"; };
 		4389E5F320FE8FCB00175651 /* Linearicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Linearicons.ttf; sourceTree = "<group>"; };
 		4389E5F420FE8FCB00175651 /* Emoji.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emoji.ttf; sourceTree = "<group>"; };
-		4389E5F620FE8FCB00175651 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		4389E5F720FE8FCB00175651 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4389E5F820FE8FCB00175651 /* SwiftIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIcons.swift; sourceTree = "<group>"; };
 		A605C1301E37A9EE0079765A /* SwiftIconsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftIconsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +121,7 @@
 		E09B78CE27FF2100005CF442 /* FontAwesomeBrands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeBrands.ttf; sourceTree = "<group>"; };
 		E09B78CF27FF2100005CF442 /* FontAwesomeRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeRegular.ttf; sourceTree = "<group>"; };
 		E09B78D027FF2101005CF442 /* FontAwesomeSolid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesomeSolid.ttf; sourceTree = "<group>"; };
+		E09B78DB27FF3738005CF442 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,8 +177,8 @@
 				05E50F81213EA67C007FEB78 /* TypIcons.ttf */,
 				4389E5F220FE8FCB00175651 /* Stateface.ttf */,
 				4389E5F320FE8FCB00175651 /* Linearicons.ttf */,
+				E09B78DB27FF3738005CF442 /* MaterialIcons.ttf */,
 				4389E5F420FE8FCB00175651 /* Emoji.ttf */,
-				4389E5F620FE8FCB00175651 /* MaterialIcons.ttf */,
 			);
 			path = Fonts;
 			sourceTree = "<group>";
@@ -376,13 +376,13 @@
 			files = (
 				E09B78D327FF2101005CF442 /* FontAwesomeRegular.ttf in Resources */,
 				4389E61420FE91D400175651 /* Linearicons.ttf in Resources */,
+				E09B78DC27FF3738005CF442 /* MaterialIcons.ttf in Resources */,
 				E09B78D227FF2101005CF442 /* FontAwesomeBrands.ttf in Resources */,
 				E09B78D427FF2101005CF442 /* FontAwesomeSolid.ttf in Resources */,
 				4389E60B20FE91D400175651 /* MapIcons.ttf in Resources */,
 				05E50F82213EA67C007FEB78 /* TypIcons.ttf in Resources */,
 				4389E60D20FE91D400175651 /* OpenIconic.ttf in Resources */,
 				4389E60C20FE91D400175651 /* Dripicons.ttf in Resources */,
-				4389E61720FE91D400175651 /* MaterialIcons.ttf in Resources */,
 				4389E61020FE91D400175651 /* Ionicons.ttf in Resources */,
 				4389E60F20FE91D400175651 /* WeatherIcons.ttf in Resources */,
 				4389E61520FE91D400175651 /* Emoji.ttf in Resources */,
